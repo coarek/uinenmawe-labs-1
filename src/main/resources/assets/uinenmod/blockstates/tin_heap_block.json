@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "uinenmod:block/tin_heap_block"
+    }
+  }
+}

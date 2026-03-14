@@ -1,18 +1,18 @@
 {
 	"schemaVersion": 1,
-	"id": "tutorial-mod",
+	"id": "uinenmod",
 	"version": "${version}",
-	"name": "Tutorial Mod",
+	"name": "Uinenmawe's Irrelevant S---!",
 	"description": "Test",
 	"authors": [
 		"Uinenmawe"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/coarek/uinenmawe-labs-1"
 	},
 	"license": "MIT",
-	"icon": "assets/tutorial-mod/icon.png",
+	"icon": "assets/uinenmod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
