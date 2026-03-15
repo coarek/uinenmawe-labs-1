@@ -2,6 +2,8 @@
   "item.uinenmod.guinness_can": "Guinness Can",
   "item.uinenmod.miller_can": "Miller Can",
   "item.uinenmod.tin_heap_block": "Tin Heap",
+  "item.uinenmod.piece_of_junk": "Piece of Junk",
 
-  "block.uinenmod.tin_heap_block": "Tin Heap"
+  "block.uinenmod.tin_heap_block": "Tin Heap",
+  "itemgroup.uinenmod.unrelevant_shit": "Unrelevant Shit"
 }

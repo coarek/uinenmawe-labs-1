@@ -1,6 +1,7 @@
 package moe.uinen.tutormod;
 
 import moe.uinen.tutormod.block.ModBlocks;
+import moe.uinen.tutormod.item.ModItemGroups;
 import moe.uinen.tutormod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -14,6 +15,7 @@ public class TutorialMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
+		ModItemGroups.registerGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 	}

@@ -11,13 +11,19 @@ import net.minecraft.registry.RegistryKeys;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    private static final Item GUINNESS_CAN = registerItem(
+    static final Item GUINNESS_CAN = registerItem(
             "guinness_can",
-            new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TutorialMod.MOD_ID,"guinness_can")))
+            new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TutorialMod.MOD_ID,
+                    "guinness_can")))
     ));
-    private static final Item MILLER_CAN = registerItem(
+    static final Item MILLER_CAN = registerItem(
             "miller_can",
-            new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TutorialMod.MOD_ID, "miller_can")))));
+            new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TutorialMod.MOD_ID,
+                    "miller_can")))));
+    static final Item PIECE_OF_JUNK = registerItem(
+            "piece_of_junk",
+            new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TutorialMod.MOD_ID,
+                    "piece_of_junk")))));
 
 
     private static Item registerItem(String name, Item item) {
@@ -29,6 +35,9 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(entries -> {
             entries.add(GUINNESS_CAN);
             entries.add(MILLER_CAN);
+        });
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
+            entries.add(PIECE_OF_JUNK);
         });
     }
 }
