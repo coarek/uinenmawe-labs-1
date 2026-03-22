@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "uinenmod:miller_can",
+    "N": "minecraft:nether_star",
+    "C": "uinenmod:guinness_can"
+  },
+  "pattern": [
+    "C#C",
+    "#N#",
+    "C#C"
+  ],
+  "result": {
+    "count": 1,
+    "id": "uinenmod:magic_block"
+  }
+}

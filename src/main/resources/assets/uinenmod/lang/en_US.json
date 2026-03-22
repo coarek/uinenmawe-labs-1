@@ -3,7 +3,21 @@
   "item.uinenmod.miller_can": "Miller Can",
   "item.uinenmod.tin_heap_block": "Tin Heap",
   "item.uinenmod.piece_of_junk": "Piece of Junk",
+  "item.uinenmod.guinness_ore": "Guinness Ore",
+  "item.uinenmod.miller_ore": "Miller Ore",
+  "item.uinenmod.chisel": "Chisel",
+  "item.uinenmod.magic_block": "Magic Block",
+  "item.uinenmod.jerky": "Jerky",
+  "item.uinenmod.peat": "Irish Peat",
+
 
   "block.uinenmod.tin_heap_block": "Tin Heap",
+  "block.uinenmod.guinness_ore": "Guinness Ore",
+  "block.uinenmod.miller_ore": "Miller Ore",
+  "block.uinenmod.magic_block": "Magic Block",
+
   "itemgroup.uinenmod.unrelevant_shit": "Unrelevant Shit"
+
+
+
 }

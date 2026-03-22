@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.2,
+  "group": "piece_of_junk",
+  "ingredient": "uinenmod:miller_can",
+  "result": {
+    "id": "uinenmod:piece_of_junk"
+  }
+}

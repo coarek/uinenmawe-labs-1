@@ -21,6 +21,12 @@ public class ModItemGroups {
                         entries.add(ModItems.MILLER_CAN);
                         entries.add(ModBlocks.TIN_HEAP_BLOCK);
                         entries.add(ModItems.PIECE_OF_JUNK);
+                        entries.add(ModBlocks.GUINNESS_ORE);
+                        entries.add(ModBlocks.MILLER_ORE);
+                        entries.add(ModItems.CHISEL);
+                        entries.add(ModBlocks.MAGIC_BLOCK);
+                        entries.add(ModItems.JERKY);
+                        entries.add(ModItems.PEAT);
                     }).build());
 
     public static void registerGroups() {

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "uinenmod:tin_heap_block",
+    "uinenmod:guinness_ore",
+    "uinenmod:miller_ore"
+
+  ]
+}
