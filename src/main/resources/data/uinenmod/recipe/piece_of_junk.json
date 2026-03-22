@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "uinenmod:tin_heap_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "uinenmod:piece_of_junk"
+  }
+}
